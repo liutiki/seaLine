@@ -1,0 +1,57 @@
+.style{
+   width: '100%';
+   border: '1px solid black' ;
+}
+
+.footerBack{
+    margin-top: 4%;
+    text-align: center;
+  background-color: rgba(93, 89, 105, 0.916);
+}
+
+.container{
+    list-style: none;
+    margin-bottom: 5%;
+    font-family: "Manrope", sans-serif;
+}
+
+.timework{
+       font-family: "Manrope", sans-serif;
+          color:aliceblue;
+}
+
+.contacts{
+     font-family: "Manrope", sans-serif;
+     font-weight: 200;
+        color:aliceblue;
+}
+
+.line{
+    font-family: "Manrope", sans-serif;
+     font-weight: 400;
+     color:aliceblue;
+}
+
+.we{
+   font-family: "Manrope", sans-serif;
+   font-weight: 100; 
+   color:aliceblue;
+   font-size: 23px;
+}
+
+.name{
+    width:80px
+}
+
+
+@media (max-width: 500px) {
+
+.we{
+   font-size: 12px;
+}
+
+.name{
+    width:40px
+}
+
+}

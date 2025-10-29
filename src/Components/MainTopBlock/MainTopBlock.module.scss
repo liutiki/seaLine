@@ -1,0 +1,42 @@
+.vessel{
+    width:100%;
+    height:auto;
+position:absolute;
+opacity: 0.8;
+}
+
+.seaShip{
+    color:white;
+}
+
+.deliver{
+    margin-top: 10%;
+    color:white;
+    font-size: 24px;
+}
+
+.Ship{
+    margin-top: 7%;
+    margin-left: 3%;
+    position: relative;
+}
+
+
+
+@media (max-width: 500px) {
+
+.seaShip{
+    color:white;
+    font-size: 10px;
+}
+
+.deliver{
+    margin-top: 10%;
+    color:white;
+    font-size: 9px;
+}
+
+
+
+}
+
