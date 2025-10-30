@@ -8,6 +8,8 @@ import { Footer } from './shared/Components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import { Schedule } from './Components/Schedule/Schedule';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
@@ -19,6 +21,7 @@ function App() {
 
 
   return (
+
     <>
      
       <TopContacts /> 
@@ -27,9 +30,11 @@ function App() {
        <Service/>
         <AboutCompany />
        <Vessel />
+       <Schedule />
   <Footer/>
- 
+
     </>
+  
   )
 }
 

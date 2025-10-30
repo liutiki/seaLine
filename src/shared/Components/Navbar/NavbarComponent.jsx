@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from './Navbar.module.scss';
 import { useCallback } from 'react';
 
+
 export const NavbarComponent=()=> {
 
    const scrollToSection = useCallback((id) => {
@@ -37,7 +38,11 @@ export const NavbarComponent=()=> {
               Проектные негабаритные грузы
               </NavDropdown.Item>
             </NavDropdown>
-             <Nav.Link href="#action1">Расписание судна</Nav.Link>
+           
+              
+           <Nav.Link onClick={() => scrollToSection('schedule')}>Расписание судна</Nav.Link>
+
+
           </Nav>
          
         </Navbar.Collapse>
