@@ -10,9 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { Schedule } from './Components/Schedule/Schedule';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
-
+import { Policy }  from './Components/Politics/Policy';
 
 
 
@@ -22,20 +20,26 @@ function App() {
 
   return (
 
-    <>
+  <Router>
      
-      <TopContacts /> 
-      <NavbarComponent />
-      <MainTopBlock />
-       <Service/>
-        <AboutCompany />
-       <Vessel />
-       <Schedule />
-  <Footer/>
-
-    </>
-  
-  )
+      <TopContacts />
+     <NavbarComponent />
+       <div className ="mainContent">
+      <Routes>
+        <Route path="/" element={
+          <>
+            <MainTopBlock />
+            <Service />
+            <AboutCompany />
+            <Vessel />
+            <Schedule />
+          </>
+        } />
+        <Route path="/Policy" element={<Policy />} />
+      </Routes>
+    </div>
+      <Footer />
+    </Router>
+  );
 }
-
 export default App;

@@ -1,3 +1,22 @@
+.mynav {
+    width: 100%; 
+    transition: background-color 0.3s; 
+    
+    &.scrolled{
+        background-color: rgb(93, 89, 105); ;
+    }
+}
+
+
+.fixedtop {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
 .topcall{
     display:flex;
     flex-direction: row;
@@ -14,6 +33,7 @@
 .log{
     display:flex;
     flex-direction: column;  
+   
 }
 
 .position{
@@ -54,12 +74,18 @@
     font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .logistic{
     font-family: "Manrope", sans-serif;
     font-size: 16px;
     color:wheat;
+  text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {

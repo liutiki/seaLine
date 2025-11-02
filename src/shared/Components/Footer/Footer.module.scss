@@ -59,6 +59,26 @@
       font-weight: 100;
 }
 
+.policy{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+   }
+
+   .pol{
+    margin-top: 40px;
+    background-color: transparent;
+    color:rgb(223, 229, 229);
+    border:none;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    
+&:hover{
+    color: rgb(9, 9, 9);
+}
+   }
+
 
 @media (max-width: 500px) {
 

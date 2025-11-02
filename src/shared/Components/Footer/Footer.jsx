@@ -1,8 +1,16 @@
 import { PhoneCall, Mail } from 'lucide-react';
 import styles from './Footer.module.scss';
 import logo from '@/Assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Footer = ()=>{
+
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate("/policy");
+    };
+
     return(
             <div className={styles.footerBack}>
             <hr className={styles.style}/>
@@ -25,6 +33,10 @@ export const Footer = ()=>{
                  <li className={styles.space}>Режим работы:</li>
                  <li className={styles.timework}>пн-пт:9:00-18:00</li>
                  </ul>
+
+                 <div className={styles.policy}>
+                 <button className={styles.pol} onClick={handleButtonClick}>Политика обработки персональных данных</button>
+                 </div>
                 <p className={styles.year}>© ООО "Морская Линия", 2025</p>
         </div>
     )

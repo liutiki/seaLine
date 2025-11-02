@@ -19,7 +19,7 @@ export const NavbarComponent=()=> {
     <Navbar expand="lg"className="bg-body-tertiary">
       <Container className={styles.bg} fluid>
         <Navbar.Brand  className={styles.brand} href="#">Морская Линия</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className={styles.burgerButton} />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
