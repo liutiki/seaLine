@@ -22,10 +22,10 @@ export const Footer = ()=>{
                  <li>
                  <a href="https://t.me/kdsc39" target="_blank" rel="noopener noreferrer" aria-label="Telegram"></a>
                  </li>      
-                 <li className={styles.timework}>Режим работы:</li>
+                 <li className={styles.space}>Режим работы:</li>
                  <li className={styles.timework}>пн-пт:9:00-18:00</li>
                  </ul>
-              
+                <p className={styles.year}>© ООО "Морская Линия", 2025</p>
         </div>
     )
 }

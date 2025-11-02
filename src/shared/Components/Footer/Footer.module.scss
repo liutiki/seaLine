@@ -1,29 +1,37 @@
 .style{
    width: '100%';
    border: '1px solid black' ;
+       margin-bottom: 5%;
 }
 
 .footerBack{
-    margin-top: 4%;
+    margin-top: 2%;
     text-align: center;
-  background-color: rgba(93, 89, 105, 0.916);
+   background-color: rgba(93, 89, 105, 0.916);
+
 }
 
 .container{
     list-style: none;
-    margin-bottom: 5%;
     font-family: "Manrope", sans-serif;
+   
 }
 
 .timework{
        font-family: "Manrope", sans-serif;
-          color:aliceblue;
+       color:aliceblue;
+    
+}
+
+.space{
+     font-family: "Manrope", sans-serif;
+       color:aliceblue;
 }
 
 .contacts{
      font-family: "Manrope", sans-serif;
-     font-weight: 200;
-        color:aliceblue;
+     font-weight: 100;
+     color:aliceblue;
 }
 
 .line{
@@ -43,6 +51,14 @@
     width:80px
 }
 
+.year{
+    margin-top: 3%;
+      font-family: "Manrope", sans-serif; 
+      font-size: 18px;
+      color:aliceblue;
+      font-weight: 100;
+}
+
 
 @media (max-width: 500px) {
 
@@ -52,6 +68,10 @@
 
 .name{
     width:40px
+}
+
+.year{
+       font-size: 10px;
 }
 
 }

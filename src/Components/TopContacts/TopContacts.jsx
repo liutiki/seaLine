@@ -24,11 +24,10 @@ export const TopContacts = () =>{
           <p className={styles.mail}>
           <a className={styles.info} href="mailto:info@kdsc.ru" title="Написать на электронную почту">info@kdsc.ru</a>
           </p>   
+          <CallOrder />
           </div>
          
-            <div className={styles.btn}>
-            <CallOrder />
-            </div> 
+    
 
           </div>
 

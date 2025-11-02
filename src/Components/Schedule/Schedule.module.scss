@@ -17,3 +17,48 @@
      font-family: "Manrope", sans-serif;
       font-size: 17px;
 }
+
+
+    .tableresponsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; // Для плавной прокрутки на мобильных устройствах
+  
+  table {
+    width: 100%; // Убедитесь, что таблица занимает всю ширину контейнера
+    border-collapse: collapse; // Убираем пробелы между ячейками
+
+    th, td {
+      padding: 8px 12px; // Отступы внутри ячеек
+      border: 1px solid #ddd; // Граница ячеек
+      text-align: left; // Выравнивание текста по левому краю
+    }
+
+    th {
+      background-color: #f2f2f2; // Цвет фона заголовков
+      font-weight: bold; // Жирный шрифт для заголовков
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9; // Цвет фона для четных строк
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+
+.ves{
+    font-size: 23px;
+       width:80%
+}
+
+.sea{
+          font-size: 14px;
+          width:80%
+}
+
+
+
+
+}
+

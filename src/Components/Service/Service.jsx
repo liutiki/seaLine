@@ -18,11 +18,12 @@ return(
           const{image, name, description}=item;
            return(
            <div className={styles.card}> 
+           
            <div className={styles.imageContainer}>
-            <img src={image} className={styles.image} alt="vessel"/> 
+           <img src={image} className={styles.image} alt="vessel"/> 
            </div>
    
-    <div className="cardVessel-position">
+    <div >
     <h3 className={styles.title}>{name}</h3>
     <p className={styles.description}>{description}</p>
     </div>

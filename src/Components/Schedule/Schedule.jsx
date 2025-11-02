@@ -8,7 +8,7 @@ export const Schedule = ()  =>{
          <h1 className={styles.ves}>Расписание Движения Линейного судна Морской Линии</h1>
          <h2 className={styles.sea}>(Большой порт Санкт-Петербург/БазисПорт-Морской порт Калининград/КМТП)</h2>
     </div>
-  
+  <div className={styles.tableresponsive}>
     <Table striped bordered hover>
       <thead>
         <tr>
@@ -94,7 +94,7 @@ export const Schedule = ()  =>{
        
       </tbody>
     </Table> 
-
+</div>
     <div className={styles.moove}>
         <h2 className={styles.ves}>К перевозке принимаются любые типы контейнерв.</h2>
         <h5 className={styles.sea}>Расписание может быть изменено без предварительного уведомления в зависимости от времени обработки судов в портах и реальном времени на переходахв зависимости от погодных условий</h5>
