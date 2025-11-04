@@ -1,26 +1,29 @@
-.order{
- background: linear-gradient(to right,#074173,
-#1679AB,
-#29f3d8,
-#b5d2ea); 
-    color: rgb(238, 238, 241); 
-    padding: 10px;
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    font-family: "Manrope", sans-serif;
- font-size: 18px;
- font-weight: 500;
- width:300px;
 
 
-&:hover{
 
- font-size: 20px;
-  width:310px;
-}
+         .order {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+         .order {
+            margin: 10px;
+            padding: 10px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            border:none;
+            font-family: "Manrope", sans-serif;
+            font-weight: 500;
+          }
 
-}
+          .order:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
 
 
 @media (max-width: 500px) {
@@ -28,8 +31,7 @@
 .order{
     margin-top: 70px;
     padding: 8px;
-    border: none; 
-   font-size: 16px;
+    font-size: 16px;
  font-weight: 500;
  width:200px;
 }
