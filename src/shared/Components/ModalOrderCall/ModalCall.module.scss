@@ -1,0 +1,38 @@
+    .text {
+        padding: 7px; 
+        border: 1px solid #ced4da; 
+        border-radius: 10px; 
+        font-size: 1rem; 
+        width:300px;
+    }
+
+    .tel{
+         padding: 7px; 
+        border: 1px solid #ced4da; 
+        border-radius: 10px; 
+        font-size: 1rem; 
+        width:300px;
+        margin-bottom: 15px;
+    }
+
+    .btn{
+       background: linear-gradient(to right,#001A6E,
+#074799,
+#009990,
+#E1FFBB,
+); 
+border:none;
+width:300px;
+color:white;
+
+&:hover{
+     background: linear-gradient(to right,#1542d6,
+#0d60c4,
+#2ed3c8,
+#c4e49a,
+     )
+    }
+}
+
+
+

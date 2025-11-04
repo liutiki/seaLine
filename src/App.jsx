@@ -5,12 +5,12 @@ import { AboutCompany } from './Components/AboutCompany/AboutCompany';
 import { Service } from './Components/Service/Service';
 import { Vessel } from './Components/Vessel/Vessel';
 import { Footer } from './shared/Components/Footer/Footer';
-
+import { Schedule } from './Components/Schedule/Schedule';
+import { Policy }  from './Components/Politics/Policy';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import { Schedule } from './Components/Schedule/Schedule';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Policy }  from './Components/Politics/Policy';
+
 
 
 

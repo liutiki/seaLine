@@ -10,3 +10,10 @@
     max-width: 50%; 
     height: auto;
 }
+
+@media (max-width: 500px){
+    .vessel {
+    max-width: 80%; 
+    height: auto;
+}
+}

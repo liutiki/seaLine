@@ -1,15 +1,10 @@
 import { PhoneCall, Mail } from 'lucide-react';
 import styles from './Footer.module.scss';
 import logo from '@/Assets/logo.png';
-import { useNavigate } from 'react-router-dom';
+import { PolicyButton } from '@/ui/PolicyButton/PolicyButton';
 
 export const Footer = ()=>{
 
-    const navigate = useNavigate();
-
-    const handleButtonClick = () => {
-        navigate("/policy");
-    };
 
     return(
             <div className={styles.footerBack}>
@@ -22,20 +17,23 @@ export const Footer = ()=>{
 
                  <ul className={styles.container}>
                  <li className={styles.footertel}>
-                 <a className={styles.nounderline} href="tel:+74012994989" aria-label="Позвонить в Калининградское Морское Пароходство"> <PhoneCall />+7(4012)99 49 89</a>
+                 <a className={styles.nounderline} href="tel:+79097771712" aria-label="Позвонить в Морскую Линию"> <PhoneCall className={styles.phoneCall} />+79097771712</a>
                  </li>
                  <li className={styles.rest}>
-                 <a className={styles.nounderline} href="mailto:info@kdsc.ru" aria-label="Написать на почту"> <Mail />info@kdsc.ru</a>
+                 <a className={styles.nounderline} href="mailto:info@mlship.ru " aria-label="Написать на почту"> <Mail  className={styles.mail}/>info@mlship.ru </a>
                  </li>
                  <li>
                  <a href="https://t.me/kdsc39" target="_blank" rel="noopener noreferrer" aria-label="Telegram"></a>
-                 </li>      
+                 </li>  
+                <div className={styles.monday}>
                  <li className={styles.space}>Режим работы:</li>
-                 <li className={styles.timework}>пн-пт:9:00-18:00</li>
+                 <li className={styles.timework}>пн-пт:9:00-18:00</li> 
+                    </div>    
+                
                  </ul>
 
                  <div className={styles.policy}>
-                 <button className={styles.pol} onClick={handleButtonClick}>Политика обработки персональных данных</button>
+                 <PolicyButton />
                  </div>
                 <p className={styles.year}>© ООО "Морская Линия", 2025</p>
         </div>

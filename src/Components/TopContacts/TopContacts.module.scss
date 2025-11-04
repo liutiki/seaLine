@@ -88,7 +88,23 @@
     text-decoration: none;
 }
 
+
+.mailLog{
+margin-right: 5px;}
+
+   .phoneCall{
+    margin-right: 5px;
+   }
+
+
 @media (max-width: 500px) {
+
+    .mailLog{
+display:none;}
+
+   .phoneCall{
+   display:none;
+   }
 
 .log{
     flex-direction: column;  

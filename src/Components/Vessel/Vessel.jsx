@@ -19,7 +19,7 @@ export const Vessel=()=> {
           <ExampleCarouselImage src={image.src} text={image.text} />
           <Carousel.Caption>
             <h3>{image.text}</h3>
-            <p> {image.text}</p>
+           
           </Carousel.Caption>
         </Carousel.Item>
       ))}

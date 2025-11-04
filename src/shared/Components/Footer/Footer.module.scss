@@ -8,7 +8,6 @@
     margin-top: 2%;
     text-align: center;
    background-color: rgba(93, 89, 105, 0.916);
-
 }
 
 .container{
@@ -36,7 +35,7 @@
 
 .line{
     font-family: "Manrope", sans-serif;
-     font-weight: 400;
+     font-weight: 100;
      color:aliceblue;
 }
 
@@ -79,11 +78,31 @@
 }
    }
 
+   .nounderline{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+   }
+
+   .monday{
+    margin-top: 20px;
+   }
+
+   .phoneCall{
+    margin-right: 5px;
+   }
+
+   .mail{
+margin-right: 5px;
+
+   }
 
 @media (max-width: 500px) {
 
 .we{
-   font-size: 12px;
+   font-size: 10px;
 }
 
 .name{
@@ -92,6 +111,12 @@
 
 .year{
        font-size: 10px;
+}
+
+.footerBack{
+display:flex;
+flex-direction: column;
+justify-content: center;
 }
 
 }

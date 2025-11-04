@@ -48,15 +48,21 @@
 @media (max-width: 500px) {
 
 .ves{
-    font-size: 23px;
-       width:80%
+    font-size: 11px;
+       
 }
 
 .sea{
-          font-size: 14px;
-          width:80%
+          font-size: 9px;
+         
 }
 
+.moove{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+}
 
 
 
