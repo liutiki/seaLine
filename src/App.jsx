@@ -10,6 +10,8 @@ import { Policy }  from './Components/Politics/Policy';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import { CookieBanner } from './Components/Cooky/CookieBanner';
+
 
 
 
@@ -38,7 +40,9 @@ function App() {
         <Route path="/Policy" element={<Policy />} />
       </Routes>
     </div>
+     <CookieBanner />
       <Footer />
+      
     </Router>
   );
 }
