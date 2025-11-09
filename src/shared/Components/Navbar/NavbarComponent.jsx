@@ -30,14 +30,16 @@ export const NavbarComponent=()=> {
            <Nav.Link onClick={() => scrollToSection('services')}>Услуги</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('about')}>О компании</Nav.Link>
             <NavDropdown title="Виды грузов" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Перевозка легковых и транспортных средств</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Перевозка спецтехники
+              <NavDropdown.Item onClick={() => scrollToSection('services')} >
+              Перевозка легковых и транспортных средств
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item  onClick={() => scrollToSection('services')}>
+                Перевозка спецтехники
+              </NavDropdown.Item >
+              <NavDropdown.Item onClick={() => scrollToSection('services')} >
               Проектные негабаритные грузы
               </NavDropdown.Item>
-            </NavDropdown>
+              </NavDropdown>
            
               
            <Nav.Link onClick={() => scrollToSection('schedule')}>Расписание судна</Nav.Link>

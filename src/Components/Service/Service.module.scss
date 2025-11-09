@@ -1,5 +1,5 @@
 .position{
-    margin-top: 18%;
+    margin-top: 16%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ margin-top: 3%;
 }
 
 .title{
-    margin-top: 10PX;
+    margin-top: 10px;
     width:500px; 
     font-family: "Manrope", sans-serif;
     font-size: 20px;
@@ -76,10 +76,12 @@ margin-top: 3%;
     width:250px;
 }
 
-  .imageContainer {
-        overflow: visible; /* Отключаем скрытие переполнения */
-        width: auto; /* Устанавливаем ширину на auto или 100% */
-    }
+
+.imageContainer{
+    overflow: hidden; 
+    width: 270px; 
+    position: relative; 
+}
 
 
 .textposition{
@@ -89,19 +91,21 @@ margin-top: 3%;
 
 .our{
    text-align: center;
-   font-size: 15px;
+   font-size: 14px;
   }
 
 
 
 .title{
-       width:200px; 
-       font-size: 15px;
+       margin-top: 1px;
+       width:250px; 
+       font-size: 17px;
+       font-weight: 800;
 }
 
 .description{
-   width:300px; 
-   height:13vh;
+   width:270px; 
+   height:auto;
 }
 
 }
