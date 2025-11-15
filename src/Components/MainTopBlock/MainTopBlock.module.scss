@@ -6,13 +6,16 @@ opacity: 0.8;
 }
 
 .seaShip{
-    color:rgb(75, 73, 73);
+    color:#313647;
+    font-size: 53px;
+    font-weight: 700;
+       font-family: "Manrope", sans-serif;
 }
 
 .deliver{
     margin-top: 4%;
-    color:rgb(77, 73, 73);
-    font-size: 24px;
+    color:#313647;
+       font-family: "Manrope", sans-serif;
 }
 
 .Ship{
@@ -25,16 +28,23 @@ opacity: 0.8;
 
 @media (max-width: 500px) {
 
+    .vessel{
+        margin-top: 17%;
+    }
+
 .seaShip{
     font-size: 15px;
 }
 
 .deliver{
-    margin-top: 8%;
+    margin-top: 6%;
     font-size: 12px;
 }
 
+.Ship{
+    margin-top: 26%;
 
+}
 
 
 }

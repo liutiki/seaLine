@@ -99,30 +99,36 @@ margin-right: 5px;}
 
 @media (max-width: 500px) {
 
-    .mailLog{
+.mailLog{
 display:none;}
 
    .phoneCall{
    display:none;
    }
 
+
 .log{
     flex-direction: column;  
+      
 }
 
 .seaLine{
     font-size: 14px;
+    display:none;
 }
 
 .logistic{
      font-size: 12px;
+      display:none;
 }
 
 .logo{
     width:40px;
+     display:none;
 }
 
 .phone{
+
  font-size: 12px;
 }
 
@@ -143,6 +149,7 @@ display:none;}
 }
 
 .position{
+    margin-top: 16%;
      display:flex;
     flex-direction: row;
 }

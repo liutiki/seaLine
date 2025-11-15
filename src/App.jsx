@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { CookieBanner } from './Components/Cooky/CookieBanner';
+import { VesselZel } from './Components/VesselZel/VesselZel';
 
 
 
@@ -25,8 +26,10 @@ function App() {
   <Router>
      
       <TopContacts />
-     <NavbarComponent />
+      <NavbarComponent />
        <div className ="mainContent">
+      
+     
       <Routes>
         <Route path="/" element={
           <>
@@ -34,6 +37,7 @@ function App() {
             <Service />
             <AboutCompany />
             <Vessel />
+            <VesselZel />
             <Schedule />
           </>
         } />

@@ -4,22 +4,22 @@
          .order {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
          .order {
             margin: 10px;
-            padding: 10px 45px;
+            padding: 10px 55px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
             color: white;            
             box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
             display: block;
             border:none;
             font-family: "Manrope", sans-serif;
-            font-weight: 500;
+            font-weight: 600;
+            font-size: 18px;
           }
 
           .order:hover {
-            background-position: right center; /* change the direction of the change here */
+            background-position: right center; 
             color: #fff;
             text-decoration: none;
           }

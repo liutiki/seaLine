@@ -1,9 +1,18 @@
-.brand{
+.stop{
+   color:wheat;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display:none;
+}
+.logo{
+    width:40px;
     display:none;
 }
 
 .bg {
-    margin-top: 90px; // Увеличьте значение, если нужно больше отступа
+    margin-top: 80px; // Увеличьте значение, если нужно больше отступа
     background-color: #f8f9fa; // Цвет фона, как пример
     position: fixed; // Фиксируем навбар
     top: 0; // Устанавливаем его в верхней части страницы
@@ -12,24 +21,62 @@
     z-index: 1000; 
 }
 
+.btn{
+    display:none;
+}
+
+.phone{
+  display:none;
+}
+
+.info{
+     display:none;
+}
+
+.mail{
+    display:none;
+  
+}
+
+
+.tel{
+  display:none;
+}
+
+
+
 
 @media (max-width: 500px) {
 
+   .brand {
+       display: block;
+        color: wheat;
+        font-family: "Manrope", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
 .bg {
-    margin-top: 78px; // Увеличьте значение, если нужно больше отступа
-    background-color: rgb(93, 89, 105);
+    margin-top: 0px; // Увеличьте значение, если нужно больше отступа
+    background-color: rgba(93, 89, 105, 0.851);
 
  }
 
-.burgerButton {
-  margin-left: 290px; // Сдвигаем кнопку бургер вправо на 290 пикселей
-  background-color: transparent; // Делаем фон прозрачным
-  border: none; // Убираем границу
-
+ .navContainer {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание */
 }
-  // Стили для иконок (линий) кнопки-бургера
+
+
+  .logo {
+    display:block;
+        width: 40px; /* Установите нужный размер логотипа */
+        height: auto; /* Сохраняем пропорции */
+        margin-left: 10px;
+    }
+
   .navbar-toggler-icon {
-    background-color: white; // Цвет линий кнопки-бургера
+    background-color: white !important; // Цвет линий кнопки-бургера
   }
 
 .nav-link {
@@ -46,6 +93,54 @@
 
 .navbar-nav {
   padding: 10px; // Увеличиваем отступы для элементов навигации
+}
+
+.phone{
+           display:block;
+ font-size: 12px;
+}
+
+.info{
+    display:block;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.mail{
+       display:block;
+     margin-left:1px;
+  
+}
+
+
+.tel{
+       display:block;
+    margin-left:12px;
+    margin-right: 12px;
+}
+
+.btn{
+    display:block;
+}
+
+.position{
+     display:flex;
+     flex-direction: row;
+}
+
+.stop{
+    color: wheat !important;
+    font-family: "Manrope", sans-serif;
+    font-size: 21px !important;
+    font-weight: 400;
+    text-decoration: none;
+    display:block;
+  text-decoration: underline !important;
+}
+
+.brandContainer {
+    display: flex; // Используем flexbox для выравнивания
+    align-items: center; // Вертикальное выравнивание по центру
 }
 
 }

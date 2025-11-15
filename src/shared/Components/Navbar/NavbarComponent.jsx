@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from './Navbar.module.scss';
 import { useCallback } from 'react';
+import logo from '@/Assets/logo.png';
 
 
 export const NavbarComponent=()=> {
@@ -18,7 +19,15 @@ export const NavbarComponent=()=> {
   return (
     <Navbar expand="lg"className="bg-body-tertiary">
       <Container className={styles.bg} fluid>
-        <Navbar.Brand  className={styles.brand} href="#">Морская Линия</Navbar.Brand>
+       
+<div className={styles.brandContainer}>
+<img src={logo} className={styles.logo} alt="Логотип морской логистической компании 'Морская Линия'" /> 
+<Navbar.Brand className={styles.stop} href="#">Морская Линия</Navbar.Brand>
+</div>
+
+ 
+
+   
         <Navbar.Toggle aria-controls="navbarScroll" className={styles.burgerButton} />
         <Navbar.Collapse id="navbarScroll">
           <Nav
